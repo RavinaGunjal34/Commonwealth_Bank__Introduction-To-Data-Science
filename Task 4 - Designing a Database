@@ -1,0 +1,75 @@
+Tables 
+
+1. Tweets
+
+2. Users
+
+3. Replies
+
+4. QuoteRetweets 
+
+5. Mentions 
+
+Fields in each table 
+
+Tweets 
+
+•tweet_id (Primary Key): The unique identifier of the tweet. 
+
+•user_id: The unique identifier of the user who posted the tweet. 
+
+•tweet_text: The text content of the tweet. 
+
+•created_at: The timestamp when the tweet was created. 
+
+Users 
+
+•user_id (Primary Key): The unique identifier of the user. 
+
+•user_name: The name of the user. 
+
+•user_screen_name: The screen name (handle) of the user. 
+
+•user_created_at: The timestamp when the user account was created.
+
+Replies 
+
+•reply_id (Primary Key): The unique identifier of the reply. 
+
+•tweet_id: The unique identifier of the tweet that the reply is associated with. 
+
+•user_id: The unique identifier of the user who posted the reply. 
+
+•reply_text: The text content of the reply. 
+
+•created_at: The timestamp when the reply was created. 
+
+QuoteRetweets 
+
+•quote_id (Primary Key): The unique identifier of the quote retweet. 
+
+•tweet_id: The unique identifier of the original tweet that was quote retweeted. 
+
+•user_id: The unique identifier of the user who posted the quote retweet. 
+
+•quote_text: The text content of the quote retweet. 
+
+•created_at: The timestamp when the quote retweet was created. 
+
+Mentions 
+
+•mention_id (Primary Key): The unique identifier of the mention. 
+
+•tweet_id: The unique identifier of the tweet where the mention occurred. 
+
+•user_id: The unique identifier of the user who was mentioned. 
+
+Relationships between tables 
+
+•Tweets to Users: Each tweet is associated with one user (via user_id). A user can have multiple tweets. 
+
+•Replies to Tweets and Users: Each reply is associated with one tweet (via tweet_id) and one user (via user_id). A tweet can have multiple replies, and a user can post multiple replies. 
+
+•QuoteRetweets to Tweets and Users: Each quote retweet is associated with one original tweet (via tweet_id) and one user (via user_id). A tweet can be quote retweeted multiple times, and a user can post multiple quote retweets. 
+
+•Mentions to Tweets and Users: Each mention is associated with one tweet (via tweet_id) and one user (via user_id). A tweet can have multiple mentions, and a user can be mentioned multiple times.
