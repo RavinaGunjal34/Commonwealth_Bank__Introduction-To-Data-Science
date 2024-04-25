@@ -1,0 +1,37 @@
+Proposal for Twitter Data Analysis of @CommBank 
+
+Objective 
+
+The main objective of this project is to analyze the Twitter data of @CommBank to extract valuable insights that can help InsightSpark in understanding the bank’s customer interactions, sentiment, and overall public perception. 
+
+Data Collection 
+
+We will use the Twitter API to collect the tweets from @CommBank. The data we aim to collect includes the tweet content, timestamp, retweet count, favorite count, and any associated hashtags or mentions. 
+
+Data Analysis 
+
+Sentiment Analysis 
+
+We will perform sentiment analysis on the tweets to understand the overall sentiment of the tweets. This can provide insights into how customers are reacting to @CommBank’s services or announcements. 
+
+Topic Modeling 
+
+We will use topic modeling techniques to identify the main topics that @CommBank tweets about. This can help us understand what areas @CommBank focuses on and how these focus areas change over time. 
+
+Hashtag and Mention 
+
+Analysis Analyzing the hashtags and mentions in @CommBank’s tweets can help us understand what other entities or topics are often associated with @CommBank. 
+
+Business Applications 
+
+Customer Perception 
+
+Understanding the sentiment and topics of @CommBank’s tweets can give us an idea of how their customers perceive them. This can be useful for benchmarking and competitive analysis. 
+
+Trend Analysis 
+
+By analyzing the topics of @CommBank’s tweets over time, we can identify any trends or shifts in their focus areas. This can provide valuable insights for strategic planning. 
+
+Crisis Management
+
+Identifying negative sentiment trends early can help in proactive crisis management. If there’s a sudden increase in negative sentiment, it could indicate a potential issue that needs to be addressed.
